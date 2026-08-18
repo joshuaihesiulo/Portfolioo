@@ -5,38 +5,43 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="pt-28 pb-16 min-h-screen flex items-center relative overflow-hidden"
+      className="pt-24 pb-8 min-h-screen flex items-center relative overflow-hidden"
     >
       <div className="max-w-7xl mx-auto px-6 w-full grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-        <div className="hidden lg:flex lg:col-span-1 flex-col justify-between h-[500px] border-r border-gray-200/80 pr-4 text-xs text-gray-400 tracking-wider">
+        <div className="hidden lg:flex lg:col-span-1 flex-col justify-between h-[400px] border-r border-gray-200/80 pr-4 text-xs text-gray-400 tracking-wider">
           <span className="[writing-mode:vertical-lr] rotate-180 uppercase">
-            Product designer
+            Frontend developer
           </span>
-          <span className="[writing-mode:vertical-lr] rotate-180">2024</span>
+          <span className="[writing-mode:vertical-lr] rotate-180">2026</span>
         </div>
 
-        <div className="lg:col-span-6 space-y-12">
+        <div className="lg:col-span-6 space-y-8">
           <div className="space-y-4">
-            <h1 className="text-7xl sm:text-8xl lg:text-[11rem] font-light leading-none tracking-tight">
+            <h1 className="text-6xl sm:text-7xl lg:text-9xl font-bold leading-none tracking-tight">
               Hello
             </h1>
             <p className="text-base sm:text-lg text-gray-600 font-normal">
-              — It&apos;s D.Nova a design wizerd
+              — I&apos;m Joshua Ihesiulo, a Frontend Engineer &amp; aspiring AI
+              Engineer crafting high-end UIs and AI-powered web apps
             </p>
           </div>
 
-          <div className="flex items-center gap-16">
+          <div className="flex items-center gap-12">
             <div>
-              <h3 className="text-4xl lg:text-5xl font-light tracking-tight">+200</h3>
-              <p className="text-xs text-gray-500 mt-1">Project completed</p>
+              <h3 className="text-3xl lg:text-4xl font-bold tracking-tight">
+                +10
+              </h3>
+              <p className="text-xs text-gray-500 mt-1">Projects built</p>
             </div>
             <div>
-              <h3 className="text-4xl lg:text-5xl font-light tracking-tight">+50</h3>
-              <p className="text-xs text-gray-500 mt-1">Startup raised</p>
+              <h3 className="text-3xl lg:text-4xl font-bold tracking-tight">
+                +8
+              </h3>
+              <p className="text-xs text-gray-500 mt-1">Certifications</p>
             </div>
           </div>
 
-          <div className="pt-8">
+          <div className="pt-4">
             <button
               onClick={() => scrollToSection('about')}
               className="flex items-center gap-2 text-sm text-gray-500 hover:text-black transition-colors"
@@ -50,8 +55,8 @@ export default function Hero() {
           <div className="relative w-full max-w-md aspect-[4/5] rounded-3xl overflow-hidden bg-gray-200 shadow-xl">
             <img
               src={MY_PHOTO}
-              alt="D.Nova - Product Designer"
-              className="w-full h-full object-cover grayscale contrast-125"
+              alt="Joshua Ihesiulo - Frontend Developer"
+              className="w-full h-full object-cover"
             />
           </div>
         </div>

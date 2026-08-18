@@ -1,26 +1,27 @@
 export const showcaseData = [
   {
     id: 1,
-    title: 'Halo Digital Agency website',
-    client: 'Squeeze',
+    title: 'NaijaCounts - AI Calorie Calculator',
+    client: 'Personal Project',
+    url: 'https://calorie-site-gray.vercel.app/',
     image:
-      'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=800',
-    featured: false,
-  },
-  {
-    id: 2,
-    title: 'Halo Digital Agency website',
-    client: 'Squeeze',
-    image:
-      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=800',
     featured: true,
   },
   {
     id: 3,
-    title: 'Digital Agency website',
-    client: 'Squeeze',
+    title: 'Savvy Trades - Forex Journal',
+    client: 'Team Project',
     image:
-      'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&q=80&w=800',
+    featured: false,
+  },
+  {
+    id: 4,
+    title: 'Team Notes App',
+    client: 'Team Project',
+    image:
+      'https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?auto=format&fit=crop&q=80&w=800',
     featured: false,
   },
 ]
@@ -28,27 +29,33 @@ export const showcaseData = [
 export const portfolioData = [
   {
     id: 1,
-    title: 'Halo Digital Agency website',
-    client: 'Squeeze',
-    image:
-      'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=800',
-    active: false,
-  },
-  {
-    id: 2,
-    title: 'Halo Digital Agency website',
-    client: 'Squeeze',
-    image:
-      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800',
+    title: 'NaijaCounts - AI Calorie Calculator',
+    client: 'Personal Project',
     active: true,
-    url: 'halodigital.xyz',
+    url: 'https://calorie-site-gray.vercel.app/',
+    image:
+      'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=800',
+    description:
+      'AI-powered calorie calculator built with React, Zustand, Tailwind CSS, Vite and Google Gemini, using the FAO WAFCT 2019 food table.',
   },
   {
     id: 3,
-    title: 'Halo Digital Agency website',
-    client: 'Squeeze',
-    image:
-      'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80&w=800',
+    title: 'Savvy Trades - Forex Journal',
+    client: 'Team Project',
     active: false,
+    image:
+      'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&q=80&w=800',
+    description:
+      'Modern forex trade tracking and journaling app. I contributed ideas, insights and UX/UI direction.',
+  },
+  {
+    id: 4,
+    title: 'Team Notes App',
+    client: 'Team Project',
+    active: false,
+    image:
+      'https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?auto=format&fit=crop&q=80&w=800',
+    description:
+      'Collaborative note-taking app built with a team. I contributed UX/UI knowledge, ideas and insights.',
   },
 ]

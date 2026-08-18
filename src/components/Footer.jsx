@@ -1,11 +1,10 @@
-import { WHATSAPP_URL, scrollToSection } from '../data/siteConfig'
+import { MY_EMAIL, scrollToSection } from '../data/siteConfig'
 
 const FOOTER_LINKS = [
   { label: 'Home', id: 'hero', active: true },
   { label: 'About Me', id: 'about' },
+  { label: 'Skills', id: 'skills' },
   { label: 'Portfolio', id: 'portfolio' },
-  { label: 'Services', id: 'services' },
-  { label: 'Blog', id: 'blog' },
 ]
 
 export default function Footer() {
@@ -29,12 +28,10 @@ export default function Footer() {
         </nav>
 
         <a
-          href={WHATSAPP_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-2xl sm:text-4xl lg:text-5xl font-light tracking-tight hover:opacity-80 transition-opacity"
+          href={`mailto:${MY_EMAIL}`}
+          className="text-2xl sm:text-4xl lg:text-5xl font-semibold tracking-tight hover:opacity-80 transition-opacity"
         >
-          hello@dnova.com
+          {MY_EMAIL}
         </a>
       </div>
     </footer>
